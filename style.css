@@ -101,7 +101,7 @@ body::-webkit-scrollbar-track {
   position: sticky;
   top: 0;
   background-color: white;
-  z-index: 4;
+  z-index: 10;
 }
 .logotype{
   display: flex;
@@ -686,6 +686,9 @@ footer hr{
   }
   .text-news{
     display: none;
+  }
+  .post-big-container{
+    height: 26.5vmax;
   }
   .post-news{
     width: 100%;
